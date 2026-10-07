@@ -1,0 +1,8 @@
+{
+  "short_name": "IPALegacy",
+  "name": "iOS 2.0 IPA Legacy Converter & Extractor",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1c1c1e",
+  "background_color": "#1c1c1e"
+}
