@@ -1,0 +1,2 @@
+Developer Release Notes:
+iOS 2.0 IPA architectures contain specific CodeResources and Mach-O fat format structures requiring explicit extraction constraints.

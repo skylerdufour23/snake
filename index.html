@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS 2.0 IPA Legacy Converter & Extractor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="Logo" width="48" height="48">
+        <h1>iOS 2.0 IPA Legacy Converter</h1>
+    </header>
+    <main>
+        <section class="upload-zone" id="dropZone">
+            <p>Drag & drop a legacy iOS 2.0 .ipa file here or click to browse</p>
+            <input type="file" id="fileInput" accept=".ipa">
+        </section>
+        <section class="controls">
+            <button id="extractBtn" disabled>Extract Contents</button>
+            <button id="convertBtn" disabled>Convert to Modern Payload</button>
+        </section>
+        <section class="output-log">
+            <h3>Console Log</h3>
+            <pre id="logOutput">System initialized. Ready for legacy IPA payload...</pre>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
